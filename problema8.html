@@ -15,7 +15,39 @@
         </diV>
     </center>
 
+    <p class="p">Leer tres números diferentes e imprimir el número mayor de los tres.
+</p>
 
+<script type="text/javascript">
+
+var num1;
+var num2;
+var num3;
+
+var num1=prompt("Ingrese el primer número");
+var num2=prompt("Ingrese el segundo número");
+var num3=prompt("Ingrese el tercer número");
+
+num1=parseInt(num1);
+num2=parseInt(num2);
+num3=parseInt(num3);
+
+if(num1==num2 && num1 == num3){
+    document.write("Número 1, número 2 y número 3 son iguales");
+}
+else{
+    if (num1>num2){
+        if(num1>num3){
+            document.write("Número 1 es mayor y vale: " + num1);
+        }
+    }
+        else{
+            document.write("Número 3 es mayor y vale: " + num3);
+        
+    }
+}
+    document.write("<br /><br />Número 1= " + num1 + "<br />" + "Número 2=" + num2 + "<br />" + "Número 3 = " + num3);
+</script>
 
 
 

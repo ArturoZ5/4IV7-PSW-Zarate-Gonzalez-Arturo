@@ -15,9 +15,24 @@
         </diV>
     </center>
 
+    <p class="p">Un vendedor recibe un sueldo base más un 10% extra por comisión de sus ventas,
+        el vendedor desea saber cuanto dinero obtendrá por concepto de comisiones por 
+        las tres ventas que realiza en el mes y el total que recibirá en el mes tomando 
+        en cuenta su sueldo base y comisiones.
+    </p>
 
+    <script type="text/javascript">
+        var totalcompra;
+        var descuento;
+        var totalpagar;
 
-
+        totalcompra=promt("Ingrese el total de su compra");
+        descuento=(totalcompra*0.15);
+        document.write("El descuento es de: ", descuento);
+        document.write("<br>");
+        totalpagar=parseInt(totalcompra) - parseInt(descuento);
+        document.write("Debe pagar en total por su compra: ", totalpagar);
+    </script>
 
     <div class="reg"><a href="Problemasjs.html" title="Problemasjs">Página principal</a></div>
  

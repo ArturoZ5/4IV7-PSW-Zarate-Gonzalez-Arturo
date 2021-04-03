@@ -14,7 +14,30 @@
             <align= center><p style="font-size: xxx-large;">Problema 4</p></align>
         </diV>
     </center>
+    <p class="p">Un alumno desea saber cual será su calificación final en la materia de Algoritmos.
+                 Dicha calificación se compone de los siguientes porcentajes:
+                 <br>
+                 55% del promedio de sus tres calificaciones parciales.
+                 <br>
+                 30% de la calificación del examen final.
+                 <br>
+                 15% de la calificación de un trabajo final.
+    </p>
 
+    <script type="text/javascript">
+    
+    var parciales;
+    var examen;
+    var trabajo;
+    var final;
+
+    var parciales=prompt("Ingrese el promedio de sus tres parciales");
+    var examen=prompt("Ingrese la calificación de su examen final");
+    var trabajo=prompt("Ingrese la calificación de su trabajo final");
+    var final=(parciales*0.55)+(examen*0.30)+(trabajo*0.15);
+
+    document.write("la calificación final es de: ", final);
+    </script>
 
 
 

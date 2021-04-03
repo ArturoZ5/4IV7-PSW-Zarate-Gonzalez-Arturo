@@ -31,6 +31,25 @@ html, body{
     text-align: center;
 }
 
+.regtab2{
+    width: 100px;
+    background-color: rgb(195, 196, 195);
+    color:white;
+    font-size: 1.3rem;
+    padding: 2%;
+    text-align: center;
+}
+
+.regtab10{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(37, 44, 39);
+    color:white;
+    font-size: 1.3rem;
+    padding: 2%;
+    text-align: center;
+}
+
 .footer-content{
     
     background-color: rgb(0, 0, 0);
